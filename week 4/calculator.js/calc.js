@@ -41,3 +41,9 @@ button3.addEventListener("click", function() {
   document.getElementById("sum3").textContent = calc3;
 });
 
+const addColor1 = document.getElementById("color1");
+addColor1.style.backgroundColor = "red";
+const addColor2 = document.getElementById("color2");
+addColor2.style.backgroundColor = "yellow";
+const addColor3 = document.getElementById("color3");
+addColor3.style.backgroundColor = "green";
