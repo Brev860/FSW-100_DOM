@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 .border{
     border: black solid;
     padding: 5px;
     margin: 5px;
+=======
+.border{
+    border: black solid;
+    padding: 5px;
+    margin: 5px;
+>>>>>>> 009e66340e668e67a3dbae22c6ab9a7f244fc543
 }
