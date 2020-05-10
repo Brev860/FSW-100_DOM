@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+         <link rel="stylesheet" href="forms.css">
+      </head>
+       
+          <body>
+              <div id="wrapper">
+                  <h1>BU Travel Online</h1>
+                  <p>Please fill out the form below and one of our agents will assist you.</p>
+                  
+                     <form name="formInPut">
+
+                     <div id="border">    
+                      First Name: <input type="text" name="fName" required>
+                      Last Name: <input type="text" name="lName" required>
+                      Age: <input type="text" name="age" id="">
+                    </div>
+
+                    <div id="border">
+                      Male: <input type="radio" name="gender" value="Male" required>
+                      Female: <input type="radio" name="gender" value="Female" required>
+                    </div>
+
+                    <div id="border">
+                        <label for="">location:</label>
+                          <select id="places" name="location" required>
+                          <option value="New York, NY">New York, NY</option>
+                          <option value="Miami, FL">Miami, FL</option>
+                          <option value="Los Angeles, CA">Los Angeles, CA</option>
+                          <option value=" Atlanta, GA"> Atlanta, GA</option>
+                          </select>
+                      </div>
+
+                    <div id="border">    
+                      <strong> Dietary Restrictions:</strong>
+                        Vegetarian:<input type="checkbox" name="diet" value="Vegetarian">
+                        Kosher:<input type="checkbox" name="diet" value="Kosher">
+                        Glutin free:<input type="checkbox" name="diet" value="Glutin free">
+                        Dairy Free:<input type="checkbox" name="diet" value="Dairy free">
+                     </div>
+
+                     <div id="border"> 
+                        <button>Click</button>
+                    </div>
+
+                  </form>
+                
+              </div>
+
+
+
+            <script src="forms.js"></script>
+          </body>
+
+    </html>

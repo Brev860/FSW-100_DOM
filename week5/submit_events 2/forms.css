@@ -1,0 +1,31 @@
+html, body{
+    background-color: crimson;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 24px ;
+    padding: 20px;
+}
+
+#border{
+    margin: auto;
+    width: 600px;
+    border: silver solid;
+    padding: 30px;
+    align-items: center;
+    background-color: crimson;
+    color: white;
+
+}
+
+#wrapper{
+    background-color: wheat;
+    width: 800px;
+    margin: auto;
+    padding: 30px;
+    border: silver solid;
+    border-width: 3px;
+  
+  
+}

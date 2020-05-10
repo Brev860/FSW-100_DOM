@@ -43,7 +43,20 @@ button3.addEventListener("click", function() {
 
 const addColor1 = document.getElementById("color1");
 addColor1.style.backgroundColor = "red";
+addColor1.style.margin = 10;
+addColor1.style.padding = 3;
+addColor1.style.border = "white";
+addColor1.style.borderStyle = "solid";
 const addColor2 = document.getElementById("color2");
 addColor2.style.backgroundColor = "yellow";
+addColor2.style.margin = 10;
+addColor2.style.padding = 3;
+addColor2.style.border = "white";
+addColor2.style.borderStyle = "solid";
 const addColor3 = document.getElementById("color3");
 addColor3.style.backgroundColor = "green";
+addColor3.style.margin = 10;
+addColor3.style.padding = 3;
+addColor3.style.border = "white";
+addColor3.style.borderStyle = "solid";
+
