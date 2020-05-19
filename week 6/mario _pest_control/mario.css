@@ -1,0 +1,63 @@
+ body{
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-image: url(images/61D8Dqt1YOL._AC_SY741_.jpg);
+    background-repeat: repeat;
+
+}
+
+button{
+    margin: 10px;
+    
+}
+
+#header{
+    margin: 30px;
+    text-align: center;
+    padding: 30px;
+    background-color: blue;
+    border: silver solid;
+    font-size: 60px;
+
+    
+}
+
+#wrapper{
+    background-color: blue;
+    width: 950px;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    border: silver solid;
+
+}
+
+#blocks{
+    background-color: red;
+    width: 600px;
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    margin: auto;
+    border: white solid;
+
+}
+#footer{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    margin: auto;
+    border: silver solid;
+
+}
+}
+#total{
+    padding: 30px;
+}
+a{
+    color: black;
+}
